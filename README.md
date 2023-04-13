@@ -47,19 +47,25 @@ Nginx是一款轻量级的Web 服务器/反向代理服务器及电子邮件（I
 
 ## *[前端html](https://github.com/nwaiting/spider-base/tree/master/html)*
 
-### 1、html基础知识
+HTML全称为超文本标记语言（HyperText Markup Language），是一种用于创建网页的标准标记语言。
+HTML是一种基础技术，常与CSS、JavaScript一起被众多网站用于设计网页、网页应用程序以及移动应用程序的用户界面。 网页浏览器可以读取HTML文件，并将其渲染成可视化网页。
+HTML描述了一个网站的结构语义随着线索的呈现，使之成为一种标记语言而非编程语言。
 
-### 2、html解析
+### [1、html基础知识](https://github.com/LiHongyao/HTML)
+
+### [2、html解析](https://www.cnblogs.com/qlqwjy/p/16518736.html)
 
 ## *[前端js](https://github.com/nwaiting/spider-base/tree/master/js)*
 
-### 1、js基础知识
+js全称是JavaScript，JavaScript 是开发人员用来制作交互式网页的编程语言。从刷新社交媒体馈送到显示动画和交互式地图，JavaScript 函数可以改善网站的用户体验。作为一种客户端脚本语言，它是万维网的核心技术之一。
 
-### 2、js分析
+### [1、js基础知识](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 
-### 3、js加密
+### [2、js分析](https://pythonjishu.com/nhhtxcqzdm/)
 
-### 4、js混淆
+### [3、js加解密](https://pythonjishu.com/nhhtxcqzdm/)
+
+### [4、js混淆和反混淆](https://segmentfault.com/a/1190000018732039)
 
 ## *[编程语言python](https://github.com/nwaiting/spider-base/tree/master/python)*
 
