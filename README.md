@@ -104,5 +104,8 @@ js全称是JavaScript，JavaScript 是开发人员用来制作交互式网页的
 
 
 ## 加入学习圈子,相互交流,相互学习,相互分享
+<figure>
+<img src="./image/wx.png" width=249/>
+<img src="./image/notes.png" width=249/>
+</figure>
 
-<img src="./image/wx.png" width="249"/>
