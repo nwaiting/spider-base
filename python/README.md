@@ -1,6 +1,6 @@
 # python
 
-## python编程实现最简单的爬虫
+## *1、python编程实现最简单的爬虫*
 ```python
 # 采集百度热搜
 import requests
@@ -13,16 +13,19 @@ print(response.status_code)
 print(response.text)
 ```
 
-## [ua介绍](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/User-Agent)
+## *[2、ua介绍](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/User-Agent)*
 ua即User-Agent, User-Agent首部包含了一个特征字符串，用来让网络协议的对端来识别发起请求的用户代理软件的应用类型、操作系统、软件开发商以及版本号。
 
-## [ua能解析出什么信息](https://www.lzltool.com/UserAgent)
+## *[3、ua能解析出什么信息](https://www.lzltool.com/UserAgent)*
 
-## 如何通过ua禁止爬虫
+## *4、如何通过ua禁止爬虫*
 
 禁止爬虫有动态和静态的禁止
-1、静态静止：
-    直接通过在nginx等代理服务器上配置ua规则直接禁止匹配规则的代理无法访问
+
+### 4.1、静态静止
+
+直接通过在nginx等代理服务器上配置ua规则直接禁止匹配规则的代理无法访问
+
 ```editorconfig
 # 禁止Scrapy、baidu爬虫访问
 if ($http_user_agent ~* "Scrapy|Baiduspider") {
@@ -38,10 +41,11 @@ if ($request_method !~ ^(GET|HEAD|POST)$) {
   return 403;
 }
 ```
-2、动态禁止
-    动态禁止需要接入内部的安全系统，在处理请求前用安全系统判断此链接是否是正常访问、机器人还是程序自动访问
+### 4.2、动态禁止
 
-## [各种系统的ua列表](https://github.com/fengzhizi715/user-agent-list)
+动态禁止需要接入内部的安全系统，在处理请求前用安全系统判断此链接是否是正常访问、机器人还是程序自动访问
+
+## *[5、各种系统的ua列表](https://github.com/fengzhizi715/user-agent-list)*
 
 ```python
 # 解析百度热搜
@@ -59,7 +63,7 @@ for it in html.xpath('//div[@class="normal_1fQqB"]//div[@class="c-single-text-el
 ```
 
 
-## xpath解析html
+## *[6、xpath解析html](https://www.w3school.com.cn/xpath/xpath_syntax.asp)*
 ```python
 # 解析百度热搜
 import requests
@@ -75,7 +79,7 @@ for it in html.xpath('//div[@class="normal_1fQqB"]//div[@class="c-single-text-el
     print(it)
 ```
 
-## 代理介绍
+## *7、代理介绍*
 
 爬虫程序在爬取数据时，经常需要对同一个站点进行多次高频率的访问，而这种访问很容易被站点服务器所识别出，然后拉黑封锁。而通过代理IP就可以让站点服务器认为每一次访问都来自于不同的用户，从而避免站点服务器的封锁。
 

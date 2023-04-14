@@ -67,7 +67,10 @@ js全称是JavaScript，JavaScript 是开发人员用来制作交互式网页的
 
 ### [4、js混淆和反混淆](https://segmentfault.com/a/1190000018732039)
 
+
 ## *[编程语言python](https://github.com/nwaiting/spider-base/tree/master/python)*
+
+爬虫是一种技术，不一定非要跟哪个语言绑定，python作为一种广泛使用的编程语言，在爬虫领域应用也非常广泛，所以介绍了一种语言python，也有js、java的爬虫，但是学习了python，开发爬虫程序也已经足够了。
 
 ### [1、python编程实现爬虫](https://github.com/nwaiting/spider-base/tree/master/python)
 
@@ -77,30 +80,45 @@ js全称是JavaScript，JavaScript 是开发人员用来制作交互式网页的
 
 ### [4、正则解析](https://github.com/nwaiting/spider-base/tree/master/python)
 
+
 ## *[工具chrome](https://github.com/nwaiting/spider-base/tree/master/chrome)*
 
-### 1、定位请求
+Chrome DevTools作为一个最基本最常用的web分析工具，
 
-### 2、分析请求
+### [1、定位请求](https://segmentfault.com/q/1010000009266553)
 
-### 3、模拟请求
+### [2、分析请求](https://github.com/morrain/chrome-devtools/blob/master/%E9%80%90%E6%AD%A5%E6%89%A7%E8%A1%8C.md)
+
+### [3、模拟请求](https://www.v2ex.com/t/904090)
+
+### [4、调式请求](https://github.com/morrain/chrome-devtools/blob/master/%E4%BB%A3%E7%A0%81%E8%B0%83%E8%AF%95.md)
 
 ## *[工具fiddler](https://github.com/nwaiting/spider-base/tree/master/fiddler)*
 
-### 1、抓取请求
+Fiddler是一款免费的互联网调试代理工具，是一款国外软件，原版软件无中文版，但有汉化版。它不仅可以抓取你电脑甚至手机与互联网的各种http通讯，同时还能查看他们进行分析。在必要的时候，你甚至可以修改（伪造）某些通讯实现前后端开发者调试的作用。其他作用比如解密https协议会话。
 
-### 2、分析请求
+### [1、fiddle介绍](https://github.com/xxxily/Fiddler-plus/blob/master/doc/Fiddler%E6%95%99%E7%A8%8B.md)
 
-### 3、模拟请求
+### [2、抓取请求](http://testingpai.com/article/1595507292210)
+
+### [3、分析请求](http://testingpai.com/article/1595507292210#toc_h2_8)
+
+### [4、模拟请求](https://yoyoyoky.github.io/2017/12/09/%E7%8E%A9%E8%BD%ACFiddler-Composer%E5%8F%91%E9%80%81HTTP-Request/)
+
 
 ## *[数据库](https://github.com/nwaiting/spider-base/tree/master/database)*
 
-### 1、MySQL关系型数据存储
+### [1、MySQL关系型数据存储](https://github.com/jaywcjlove/mysql-tutorial)
+MySQL在过去由于性能高、成本低、可靠性好，已经成为最流行的开源数据库，因此被广泛地应用在Internet上的中小型网站中，
+是最流行的关系型数据库管理系统，在WEB应用方面MySQL是最好的RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。
 
-### 2、redis临时型数据缓存
+### [2、redis临时性数据缓存](https://github.com/WeihanLi/StackExchange.Redis-docs-zh-cn)
+Redis是一个开源（BSD协议）的内存 数据结构存储，可用作数据库、缓存和消息中间件。
+Redis是一个使用ANSI C编写的开源、支持网络、基于内存、可选持久性的键值对存储数据库。
 
-### 3、mongodb文档型数据存储
-
+### [3、mongodb文档型数据存储](https://github.com/mongodb-china/MongoDB-CN-Manual/tree/master/docs)  [文档操作](https://zdq0394.github.io/middleware/mongo/doc.html)
+MongoDB 是一个基于分布式文件存储的数据库。由 C++ 语言编写。旨在为WEB应用提供可扩展的高性能数据存储解决方案。
+MongoDB 是一个介于关系数据库和非关系数据库之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的。它支持的数据结构非常松散，是类似Json的Bson格式，因此可以存储比较复杂的数据类型。
 
 
 ## 加入学习圈子,相互交流,相互学习,相互分享
