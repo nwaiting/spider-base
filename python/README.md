@@ -59,7 +59,7 @@ for it in html.xpath('//div[@class="normal_1fQqB"]//div[@class="c-single-text-el
 ```
 
 
-## 正则解析
+## xpath解析html
 ```python
 # 解析百度热搜
 import requests
